@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     wifiManager.setWifiEnabled(true);
-                    wifiSwitch.setText("WiFi Is ON");
+                    wifiSwitch.setText("WiFi is ON");
                 } else {
                     wifiManager.setWifiEnabled(false);
-                    wifiSwitch.setText("WiFi Is OFF");
+                    wifiSwitch.setText("WiFi is OFF");
                 }
             }
         });
